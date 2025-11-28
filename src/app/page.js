@@ -1,16 +1,12 @@
-export default function Home() {
+import Hero from './Components/Home/HeroSaction'
+import WhatDefine from './Components/Home/WhatDefine'
+import Footer from './components/global/Footer';
+export default function Page() {
   return (
-    <section className="flex items-center justify-center min-h-screen bg-white px-4">
-      <div className="bg-white border border-gray-200 shadow-xl rounded-2xl p-12 max-w-lg w-full text-center animate-fadeIn">
-        
-        <h1 className="text-4xl font-bold mb-4 text-gray-900">
-          Welcome to our Website
-        </h1>
-
-        <p className="text-gray-600 text-lg">
-          We’re glad to have you here.
-        </p>
-      </div>
-    </section>
+    <main className="relative bg-slate-100">
+      <Hero/>
+      <WhatDefine/>
+      <Footer/>
+    </main>
   );
 }
