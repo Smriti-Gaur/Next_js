@@ -1,7 +1,6 @@
-// components/WhatDefinesUs.tsx
 export default function WhatDefinesUs() {
   return (
-    <section className="relative z-20 bg-slate-100  flex flex-col lg:flex-row items-start justify-between gap-12 py-24 px-6 lg:px-16 sticky top-16 md:top-20   min-h-[calc(100vh-4rem)] md:min-h-[calc(100vh-5rem)]">
+    <section className="relative z-20 bg-slate-100 flex flex-col lg:flex-row items-start justify-between gap-12 py-24 px-6 lg:px-16 min-h-[calc(100vh-4rem)] md:min-h-[calc(100vh-5rem)] ">
       {/* LEFT */}
       <div className="flex flex-col items-start gap-10 lg:w-1/2">
         <div>

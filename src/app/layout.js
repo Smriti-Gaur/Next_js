@@ -1,5 +1,7 @@
 import './globals.css';
 import Header from './Components/global/Header'
+import BottomCTA from "./Components/Home/BottomCTA";
+import Footer from './components/global/Footer';
 
 
 export const metadata = {
@@ -13,6 +15,11 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main>{children}</main>
+        <div className="relative">
+          <BottomCTA/>
+          <Footer/>
+        </div>
+        
       </body>
     </html>
   );

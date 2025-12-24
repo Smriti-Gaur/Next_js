@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <section className="relative min-h-2 flex gap-6 px-4 lg:px-12 pt-0 pb-16">
-        <div className="hidden md:block sticky top-20 h-[80vh] w-[30vw] min-w-[280px] max-w-[420px] self-start">
-          <div className="relative h-full w-full overflow-hidden shadow-lg p-0">
+      <section className="relative min-h-screen  flex gap-6 px-4 lg:px-12 pt-0 pb-16">
+        <div className="hidden md:block sticky top-20 z-10 h-[80vh] w-[30vw] min-w-[280px] max-w-[420px] self-start">
+          <div className="relative h-full w-full  shadow-lg p-0">
             <Image
               src="/images/right-visual-1.jpeg"
-              alt="Left phone / creative"
+              alt="Left "
               fill
-              className="object-cover"
+              className="object-cover rounded-xl"
               sizes="(min-width: 1024px) 30vw, (min-width: 768px) 40vw, 100vw"
               priority
             />
@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="relative h-full w-full overflow-hidden">
             <Image
               src="/images/right-visual-2.jpeg"
-              alt="Right phone "
+              alt="Right  "
               fill
               className="object-cover"
               sizes="(min-width: 1024px) 33vw, 100vw"
@@ -60,7 +60,7 @@ export default function Hero() {
         <div className="relative mt-10 h-[50vh] w-full overflow-hidden rounded-3xl">
           <Image
             src="/images/right-visual-2.jpeg"
-            alt="Right mobile fallback"
+            alt="Right  fallback"
             fill
             className="object-cover"
             sizes="100vw"
